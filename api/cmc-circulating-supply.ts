@@ -2,6 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { getCirculatingSupply } from './_utils';
 
 const vestingContracts = [
+  ""
 ];
 
 const unissuedHolders = [
