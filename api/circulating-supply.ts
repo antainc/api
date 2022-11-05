@@ -13,7 +13,6 @@ const unissuedHolders = [
 
 
 export default async function handler(
-  _: NextApiRequest,
   response: NextApiResponse,
 ) {
   const circulatingSupply = await getCirculatingSupply(vestingContracts, unissuedHolders)
